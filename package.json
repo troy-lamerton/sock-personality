@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/troy-lamerton/sock-personality/issues"
   },
-  "homepage": "https://github.com/troy-lamerton/sock-personality#readme"
+  "homepage": "https://github.com/troy-lamerton/sock-personality#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.0"
+  }
 }
