@@ -1,0 +1,24 @@
+{
+  "name": "sock-personality",
+  "version": "1.0.0",
+  "description": "Sock personality app",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troy-lamerton/sock-personality.git"
+  },
+  "keywords": [
+    "sock",
+    "personality"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troy-lamerton/sock-personality/issues"
+  },
+  "homepage": "https://github.com/troy-lamerton/sock-personality#readme"
+}
