@@ -3,10 +3,8 @@ var app = express()
 var watson = require('watson-developer-cloud')
 var dotenv = require('dotenv')
 var getPersonality = require('./lib/getPersonality')
-// var socks = require('./sockWords.json')
-// var summaries = require('./summaries.json')
-var images = require('./test.json')
-console.log(images, typeof images)
+var socks = require('./sockWords.json')
+
 dotenv.load()
 
 app.set('views', __dirname + '/views');
@@ -19,7 +17,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/socks', function (req, res) {
-  res.render('socksIndex', { images: images })
+  res.render('socksIndex', socks)
 })
 
 app.listen(3000, function () {
@@ -42,7 +40,8 @@ app.get('/socks/:sock', function (req, res) {
         //gets three characteristics
         var personality = getPersonality(response)
         //add the summary from summaries.json
-        personality.summary = summaries[req.params.sock]
+        personality.summary = socks[req.params.sock].summary
+        personality.imageUrl = socks[req.params.sock].imageUrl
         res.render('sockResult', personality)
       }
   })
