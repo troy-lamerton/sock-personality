@@ -1,18 +1,22 @@
-// var request = require('superagent')
-
-// request
-//   .get('https://gateway.watsonplatform.net/personality-insights/api')
-//   .set('Accept', 'application/json')
-//   .set('Content-Type', 'text/plain; charset=utf-8')
-//   .auth(process.env.WATSON_USERNAME, process.env.WATSON_PASSWORD)
-//   .end(function(err, res){
-//     // Calling the end function will send the request
-//   });
-
+var express = require('express')
+var app = express()
 var watson = require('watson-developer-cloud')
 var dotenv = require('dotenv')
 
 dotenv.load()
+
+app.set('views', __dirname + '/views');
+app.set('view engine', 'hbs');
+
+app.use(express.static(__dirname + '/public'));
+
+app.get('/', function (req, res) {
+  res.render('index')
+})
+
+app.listen(3000, function () {
+  console.log("Server is running at localhost:3000")
+})
 
 var personality_insights = watson.personality_insights({
   username: process.env.WATSON_USERNAME,

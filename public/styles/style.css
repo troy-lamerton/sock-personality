@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  height: 100%;
+}
+
+.main {
+  margin-top: 100px;
+  background-color: #90edd6;
+  width: 80%;
+  height: 250px;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  /*padding-bottom: 10%;*/
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.enter-btn {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 35px;
+  display: block;
+  height: 100px;
+  width: 100px;
+  background-color: violet;
+
+  color: white;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
