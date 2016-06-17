@@ -1,8 +1,8 @@
 <div class="main">
   <h2>Choose the sock that best describes you</h2>
   <ul class="allsocks">
-    {{#each images}}
-      <li><img src={{this.imageUrl}}></li>
+    {{#each socks}}
+      <li><a href="/socks/{{@index}}"><img src={{this.imageUrl}}></a></li>
     {{/each}}
   </ul>
 </div>
