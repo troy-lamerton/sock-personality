@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/socks', function (req, res) {
-  res.render('socksIndex', socks.socks)
+  res.render('socksIndex', socks)
 })
 
 app.listen(3000, function () {
