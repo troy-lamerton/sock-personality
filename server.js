@@ -14,6 +14,10 @@ app.get('/', function (req, res) {
   res.render('index')
 })
 
+app.get('/socks', function (req, res) {
+  res.render('socksIndex', images)
+})
+
 app.listen(3000, function () {
   console.log("Server is running at localhost:3000")
 })
