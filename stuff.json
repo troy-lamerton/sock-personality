@@ -1,184 +1,37 @@
-// "superhero": {
-//   "text":"I don’t think I could be Superman I’m sort of scared of heights I’d sort of like to be Spiderman But I’m afraid of spider bites I suppose I could be Wolverine But I’m afraid people would stare
-// I’d consider being the Incredible Hulk
-// But radition’s bad for your hair
-
-// The fantastic four, now there’s a thought
-// But I’m not sure that’s for me
-// Ben’s too ugly, Johnny too hot
-// And Sue I just can’t see
-
-// Maybe though I could be Reed
-// And lead the other three
-// Well maybe Reed’s a bit of a stretch
-// I can barely take care of me
-
-// Captain America, him perhaps
-// I love his mighty shield
-// But I fear I’m not brave enough
-// When things get rough, I yield
-
-// If I could be a superhero
-// I wonder which I’d be
-// Or maybe it’s time I tried to find
-// The hero inside of me ",
-//   "summary":"You are a bit compulsive, easily rattled and somber.
-//   You are intermittent: you have a hard time sticking with difficult tasks for a long period of time. You are self-doubting: you frequently doubt your ability to achieve your goals. And you are consistent: you enjoy familiar routines and prefer not to deviate from them.
-//   Your choices are driven by a desire for prestige.
-//   You are relatively unconcerned with achieving success: you make decisions with little regard for how they show off your talents. You consider helping others to guide a large part of what you do: you think it is important to take care of the people around you.",
-//   "imageUrl":"/images/superhero.png"
-// },
-
-// "frilly": {
-//   "text":"her tinderbox mind
-// burst into flames of mad sadness's at any moment
-// that will burn like a river of tears
-// she will strain at speaking just the right words
-// terrified that she will get it wrong
-// so she paints her one word at a time tale
-// in brilliance colors on bathroom stall windowpane
-// hoping to compensate for all the written fears
-// no frilly graybeard teddybear to save the queen of forever's this time
-// so she will lay in her lovers arms
-// staring up at the wonder wheel of stars
-// wishing upon all the falling hero's
-// that she had her knight
-// that she wont be alone for all her tomorrows
-// that just one hero has survived to craft her
-// tell her who to be
-// how to not feel the tears",
-//   "summary":"You are boisterous and expressive.
-//   You are content: you are content with your level of accomplishment and do not feel the need to set ambitious goals. You are confident: you are hard to embarrass and are self-confident most of the time. And you are laid-back: you appreciate a relaxed pace in life.
-//   Your choices are driven by a desire for modernity.
-//   You are relatively unconcerned with both achieving success and taking pleasure in life. You make decisions with little regard for how they show off your talents. And you prefer activities with a purpose greater than just personal enjoyment.",
-//   "imageUrl":"/images/frilly.png"
-// },
-//   "bland": {
-//     "text":"Whats going through your mind when your running up the side, only 1 man to beat?
-// When he runs fast you'll run faster, can he take the heat?
-// Whats going through your mind when the X is open for the 40 yrd touchdown pass?
-// He catches the ball and you hope this moment will always last.
-
-// What are you thinking about when there is a hole the size of Texas on the 28 toss?
-// What are you thinking about when you sack the QB for an 18 yrd loss?
-
-// Whats going through your mind when coach is yelling at you for dropping the ball?
-// Why is it that on kickoff you got stopped at the first wall?
-// Coach told your parents before the season that you would most definitely letter.
-// You gotta learn from your mistakes, always making yourself better.
-
-// Your a good player, but you got a big head, you think your the best.
-// You don't listen during practice or do the drills, why you so different from all the rest?",
-//   "summary":"You are confident, social and can be perceived as dependent.
-//   You are calm under pressure: you handle unexpected events calmly and effectively. You are respectful of authority: you prefer following with tradition in order to maintain a sense of stability. And you are self-assured: you tend to feel calm and self-assured.
-//   Your choices are driven by a desire for efficiency.
-//   You consider achieving success to guide a large part of what you do: you seek out opportunities to improve yourself and demonstrate that you are a capable person. You are relatively unconcerned with independence: you welcome when others direct your activities for you.",
-//   "imageUrl":"/images/bland.png"
-// },
-
-// "stripe": {
-//   "text":"I know what you want.
-// It's what they all want, all pine for
-// You're like animals, animals, savage and oh
-// The pride that you have, it reeks off of you, from your skin bones core face eyes
-// I don't understand it
-
-// Because oh, they enjoy it so much
-// And they view themselves as items and such
-// But I can see you, see into your eyes
-// You trapped scared cornered bullied worried little boy
-// You think you need this
-
-// It's the animal inside you that I can feel
-// Languishing and writhing inside, desperate to feel something, feel anything
-// You need the connection, but it's waning breaking distant over away from your reach
-// Intangible, irreplaceable, lost
-
-// What are words when they can't reach you?
-// Used to communicate but oh you use your body
-// And your eyes, they tell me stories
-// Of where you've been, where you're going, where you are
-// But you're not here right now present ever because you're lost hidden silent child crying wailing sealed away suppressed
-
-// I can feel it all in your touch.",
-//   "summary":"You are a bit shortsighted, somewhat verbose and social.
-//   You are laid-back: you appreciate a relaxed pace in life. You are respectful of authority: you prefer following with tradition in order to maintain a sense of stability. And you are intermittent: you have a hard time sticking with difficult tasks for a long period of time.
-//   Your choices are driven by a desire for well-being.
-//   You are relatively unconcerned with taking pleasure in life: you prefer activities with a purpose greater than just personal enjoyment. You consider helping others to guide a large part of what you do: you think it is important to take care of the people around you.",
-//    "imageUrl":"/images/stripe.png"
-// },
-// "dots": {
-//   "text": "Speckled polka
-// pointillism in the sky,
-// in lime and apple green,
-// caress the jagged, jaded
-// jade summer oak.
-// And smiles down
-// like the angel
-// rays, which
-// cast my soul to heaven.
-// And insignificance.
-// As I steal through
-// my sunshine archways.
-
-// Polka dots,
-// Sit on her toes,
-// Blue and white,
-
-// Her favorite pattern,
-// Sits on her toes,
-// I finally painted them right,
-
-// Her favorite color,
-// Aside from black,
-// It matches her eyes,
-
-// Her favorite guy,
-// Painted her toes,
-// This move was very wise,
-
-// Her smile is big,
-// And it matches her guys,
-// Stunning greenish eyes,
-
-// There lips soon meet,
-// And he feels lucky,
-// Because of her toes and beautiful blue and greyish eyes.",
-//   "summary": "You are social, generous and imperturbable.
-//   You are laid-back: you appreciate a relaxed pace in life. You are confident: you are hard to embarrass and are self-confident most of the time. And you are outgoing: you make friends easily and feel comfortable around other people.
-//   You are motivated to seek out experiences that provide a strong feeling of well-being.
-//   You consider both independence and taking pleasure in life to guide a large part of what you do. You like to set your own goals to decide how to best achieve them. And you are highly motivated to enjoy life to its fullest.",
-//   "imageUrl": "/images/dots.png"
-// },
-//   "green": {
-//     "text":"In our house is a drawer
-// Which is full of odd socks.
-// They appear from nowhere
-// And gather in flocks.
-
-// I don’t know where they come from,
-// But this I know for sure,
-// Each time I look inside the drawer
-// I see a dozen more.
-
-// There must surely be a planet
-// Where odd socks can go and stay
-// To recover from the trauma
-// Of sniffing feet all day.
-
-// There they walk in perfumed gardens,
-// And through fields of new mown hay.
-// For the natives of this planet are
-// Odd socks that flew away.
-
-// So, if you find some of your socks
-// Have vanished without trace.
-// Just think how happy they must be
-// Up there, in Outer Space.",
-//   "summary":"You are unconventional and genial.
-//   You are intermittent: you have a hard time sticking with difficult tasks for a long period of time. You are empathetic: you feel what others feel and are compassionate towards them. And you are laid-back: you appreciate a relaxed pace in life.
-//   You are motivated to seek out experiences that provide a strong feeling of well-being.
-//   You consider independence to guide a large part of what you do: you like to set your own goals to decide how to best achieve them. You are relatively unconcerned with achieving success: you make decisions with little regard for how they show off your talents.",
-//   "imageUrl": "/images/green.png"
-//   }
-// }
+{
+  "name":"superhero": {
+  "text":"I don’t think I could be Superman I’m sort of scared of heights I’d sort of like to be Spiderman But I’m afraid of spider bites I suppose I could be Wolverine But I’m afraid people would stare I’d consider being the Incredible Hulk But radition’s bad for your hair The fantastic four, now there’s a thought But I’m not sure that’s for me Ben’s too ugly, Johnny too hot And Sue I just can’t see Maybe though I could be Reed And lead the other three Well maybe Reed’s a bit of a stretch I can barely take care of me Captain America, him perhaps I love his mighty shield But I fear I’m not brave enough When things get rough, I yield If I could be a superhero I wonder which I’d be Or maybe it’s time I tried to find The hero inside of me ",
+  "summary":"You are a bit compulsive, easily rattled and somber. You are intermittent: you have a hard time sticking with difficult tasks for a long period of time. You are self-doubting: you frequently doubt your ability to achieve your goals. And you are consistent: you enjoy familiar routines and prefer not to deviate from them. Your choices are driven by a desire for prestige. You are relatively unconcerned with achieving success: you make decisions with little regard for how they show off your talents. You consider helping others to guide a large part of what you do: you think it is important to take care of the people around you.",
+  "imageUrl":"/images/superhero.png"
+},
+{
+  "name":"frilly": {
+  "text":"her tinderbox mind burst into flames of mad sadness's at any moment that will burn like a river of tears she will strain at speaking just the right words terrified that she will get it wrong so she paints her one word at a time tale in brilliance colors on bathroom stall windowpane hoping to compensate for all the written fears no frilly graybeard teddybear to save the queen of forever's this time so she will lay in her lovers arms staring up at the wonder wheel of stars wishing upon all the falling hero's that she had her knight that she wont be alone for all her tomorrows that just one hero has survived to craft her tell her who to be how to not feel the tears",
+  "summary":"You are boisterous and expressive. You are content: you are content with your level of accomplishment and do not feel the need to set ambitious goals. You are confident: you are hard to embarrass and are self-confident most of the time. And you are laid-back: you appreciate a relaxed pace in life. Your choices are driven by a desire for modernity. You are relatively unconcerned with both achieving success and taking pleasure in life. You make decisions with little regard for how they show off your talents. And you prefer activities with a purpose greater than just personal enjoyment.",
+  "imageUrl":"/images/frilly.png"
+},
+{
+  "name":"bland": {
+    "text":"Whats going through your mind when your running up the side, only 1 man to beat? When he runs fast you'll run faster, can he take the heat? Whats going through your mind when the X is open for the 40 yrd touchdown pass? He catches the ball and you hope this moment will always last. What are you thinking about when there is a hole the size of Texas on the 28 toss? What are you thinking about when you sack the QB for an 18 yrd loss? Whats going through your mind when coach is yelling at you for dropping the ball? Why is it that on kickoff you got stopped at the first wall? Coach told your parents before the season that you would most definitely letter. You gotta learn from your mistakes, always making yourself better. Your a good player, but you got a big head, you think your the best. You don't listen during practice or do the drills, why you so different from all the rest?",
+  "summary":"You are confident, social and can be perceived as dependent. You are calm under pressure: you handle unexpected events calmly and effectively. You are respectful of authority: you prefer following with tradition in order to maintain a sense of stability. And you are self-assured: you tend to feel calm and self-assured. Your choices are driven by a desire for efficiency. You consider achieving success to guide a large part of what you do: you seek out opportunities to improve yourself and demonstrate that you are a capable person. You are relatively unconcerned with independence: you welcome when others direct your activities for you.",
+  "imageUrl":"/images/bland.png"
+},
+{
+  "name":"stripe": {
+  "text":"I know what you want. It's what they all want, all pine for You're like animals, animals, savage and oh The pride that you have, it reeks off of you, from your skin bones core face eyes I don't understand it Because oh, they enjoy it so much And they view themselves as items and such But I can see you, see into your eyes You trapped scared cornered bullied worried little boy You think you need this It's the animal inside you that I can feel Languishing and writhing inside, desperate to feel something, feel anything You need the connection, but it's waning breaking distant over away from your reach Intangible, irreplaceable, lost What are words when they can't reach you? Used to communicate but oh you use your body And your eyes, they tell me stories Of where you've been, where you're going, where you are But you're not here right now present ever because you're lost hidden silent child crying wailing sealed away suppressed I can feel it all in your touch.",
+  "summary":"You are a bit shortsighted, somewhat verbose and social. You are laid-back: you appreciate a relaxed pace in life. You are respectful of authority: you prefer following with tradition in order to maintain a sense of stability. And you are intermittent: you have a hard time sticking with difficult tasks for a long period of time. Your choices are driven by a desire for well-being. You are relatively unconcerned with taking pleasure in life: you prefer activities with a purpose greater than just personal enjoyment. You consider helping others to guide a large part of what you do: you think it is important to take care of the people around you.",
+   "imageUrl":"/images/stripe.png"
+},
+{
+  "name":"dots": {
+  "text":"Speckled polka pointillism in the sky, in lime and apple green, caress the jagged, jaded jade summer oak. And smiles down like the angel rays, which cast my soul to heaven. And insignificance. As I steal through my sunshine archways. Polka dots, Sit on her toes, Blue and white, Her favorite pattern, Sits on her toes, I finally painted them right, Her favorite color, Aside from black, It matches her eyes, Her favorite guy, Painted her toes, This move was very wise, Her smile is big, And it matches her guys, Stunning greenish eyes, There lips soon meet, And he feels lucky, Because of her toes and beautiful blue and greyish eyes.",
+  "summary":"You are social, generous and imperturbable. You are laid-back: you appreciate a relaxed pace in life. You are confident: you are hard to embarrass and are self-confident most of the time. And you are outgoing: you make friends easily and feel comfortable around other people. You are motivated to seek out experiences that provide a strong feeling of well-being. You consider both independence and taking pleasure in life to guide a large part of what you do. You like to set your own goals to decide how to best achieve them. And you are highly motivated to enjoy life to its fullest.",
+  "imageUrl": "/images/dots.png"
+},
+{
+  "name":"green":
+  "text":"In our house is a drawer Which is full of odd socks. They appear from nowhere And gather in flocks. I don’t know where they come from, But this I know for sure, Each time I look inside the drawer I see a dozen more. There must surely be a planet Where odd socks can go and stay To recover from the trauma Of sniffing feet all day. There they walk in perfumed gardens, And through fields of new mown hay. For the natives of this planet are Odd socks that flew away. So, if you find some of your socks Have vanished without trace. Just think how happy they must be Up there, in Outer Space.",
+  "summary":"You are unconventional and genial. You are intermittent: you have a hard time sticking with difficult tasks for a long period of time. You are empathetic: you feel what others feel and are compassionate towards them. And you are laid-back: you appreciate a relaxed pace in life. You are motivated to seek out experiences that provide a strong feeling of well-being. You consider independence to guide a large part of what you do: you like to set your own goals to decide how to best achieve them. You are relatively unconcerned with achieving success: you make decisions with little regard for how they show off your talents.",
+  "imageUrl": "/images/green.png"
+  }
+}
