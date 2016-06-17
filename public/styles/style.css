@@ -11,7 +11,8 @@ body {
   border-radius: 40px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   /*padding-bottom: 10%;*/
 }
 
@@ -23,6 +24,7 @@ h1 {
   box-sizing: border-box;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 20px;
   padding-top: 35px;
   display: block;
   height: 100px;
@@ -50,3 +52,21 @@ a {
   display: inline-block;
   list-style-type: none;
  }
+
+ .summary-img {
+  float: left;
+  margin-left: 0;
+  height: 250px;
+ }
+.summary-list {
+  text-align: left;
+  list-style-type: none;
+}
+
+.left {
+  font-size: 80%;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 18px;
+  padding-right: 20px;
+}
