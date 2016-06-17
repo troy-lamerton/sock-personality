@@ -3,9 +3,10 @@ var app = express()
 var watson = require('watson-developer-cloud')
 var dotenv = require('dotenv')
 var getPersonality = require('./lib/getPersonality')
-var socks = require('./sockWords.json')
-var summaries = require('./summaries.json')
-
+// var socks = require('./sockWords.json')
+// var summaries = require('./summaries.json')
+var images = require('./test.json')
+console.log(images, typeof images)
 dotenv.load()
 
 app.set('views', __dirname + '/views');
@@ -18,7 +19,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/socks', function (req, res) {
-  res.render('socksIndex', images)
+  res.render('socksIndex', { images: images })
 })
 
 app.listen(3000, function () {
