@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/socks', function (req, res) {
-  res.render('socksIndex', socks)
+  res.render('socksIndex', socks.socks)
 })
 
 app.listen(3000, function () {
@@ -31,7 +31,7 @@ app.get('/socks/:sock', function (req, res) {
     version: 'v2'
   })
   personality_insights.profile({
-    text: socks[req.params.sock],
+    text: socks.socks[parseInt(req.params.sock)],
     language: 'en' },
     function (err, response) {
       if (err)
@@ -40,9 +40,9 @@ app.get('/socks/:sock', function (req, res) {
         //gets three characteristics
         var personality = getPersonality(response)
         //add the summary from summaries.json
-        personality.summary = socks[req.params.sock].summary
-        personality.imageUrl = socks[req.params.sock].imageUrl
-        res.render('sockResult', personality)
+        personality.summary = socks.socks[parseInt(req.params.sock)].summary
+        personality.imageUrl = socks.socks[parseInt(req.params.sock)].imageUrl
+        res.render('summary', personality)
       }
   })
 })
